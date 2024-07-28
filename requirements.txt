@@ -1,0 +1,25 @@
+
+tqdm
+numpy>=1.18.03
+webdataset
+matplotlib
+
+#captioning dependencies
+anthropic
+openai
+ray
+
+#detection dependencies
+transformers==4.40 #seems like this exact version needed for CogVLM to work
+sentencepiece 
+xformers 
+accelerate 
+
+#segmentation dependencies
+segment_anything 
+
+#erasing dependencies
+modelscope==1.14.0 
+datasets==2.18.0 
+opencv-python
+kornia
