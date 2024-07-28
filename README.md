@@ -83,3 +83,19 @@ in this script, so you may want to tweak it in here if that's something you're i
 
 To convert the dataset to WebDataset format of roughly 1GB per shard, run `python convert_to_wds.py --dir {toplevel} --outdir {some output directory}`. Now you should be able to load the dataset from a PyTorch dataloader, as shown in `dataloader.py`.
 
+
+## Acknowledgements
+
+The authors would like to thank for Huy Ha, Samir Gadre, and Zeyi Liu, and the Columbia CV Lab valuable feedback and discussions. This project is partially supported by research from the DARPA ECOLE program and NSF NRI \#1925157. 
+
+
+---
+If EraseDraw has been useful, consider citing our paper:
+```
+    @article{erasedraw-24,
+      title={EraseDraw: Learning to Draw Step-by-Step via Erasing Objects from Images},
+      author={Canberk, Alper and Bondarenko, Maksym and Ozguroglu, Ege and Liu, Ruoshi and Vondrick, Carl},
+      booktitle={ECCV 2024},
+      year={2024}
+    }		
+```
